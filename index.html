@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./dist/">
+  <title>เปิด Web Notes · 01076119</title>
+  <script>
+    // GitHub Pages publishes the repository root; the application lives in dist/.
+    const destination = new URL('./dist/', window.location.href);
+    destination.search = window.location.search;
+    destination.hash = window.location.hash;
+    window.location.replace(destination.href);
+  </script>
+</head>
+<body>
+  <p>กำลังเปิด Web Notes… <a href="./dist/">กดที่นี่หากหน้าเว็บไม่เปิดอัตโนมัติ</a></p>
+</body>
+</html>
