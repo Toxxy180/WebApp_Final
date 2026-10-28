@@ -1,47 +1,47 @@
-/* Reading palette: edit these variables to change the whole theme. */
+/* Warm neutral reading palette: moderate brightness without a dark background. */
 :root {
   /* Main text, secondary text, and page surfaces */
-  --ink: #2b3935;
-  --muted: #5c6b65;
-  --page: #f7f8f5;
-  --surface: #fdfefb;
-  --header: #f9faf7;
-  --rail: #eef2ed;
-  --line: #d7e0d9;
+  --ink: #343b34;
+  --muted: #505a50;
+  --page: #ddd9d0;
+  --surface: #e8e3da;
+  --header: #dfdbd2;
+  --rail: #d1cfc5;
+  --line: #b9bdb1;
 
   /* Accent, selected states, and keyboard focus */
-  --green: #356b5e;
-  --mint: #e7f0ea;
-  --accent-hover: #2b594e;
-  --accent-text: #2e5a4e;
-  --accent-line: #bfd3c6;
-  --accent-selected: #dfece3;
-  --on-accent: #ffffff;
-  --focus: #648976;
+  --green: #48644d;
+  --mint: #cfd8c6;
+  --accent-hover: #3d5641;
+  --accent-text: #3c553f;
+  --accent-line: #a6b59d;
+  --accent-selected: #c3cfb9;
+  --on-accent: #f5f2e9;
+  --focus: #5c7660;
 
   /* Navigation and neutral controls */
-  --nav-text: #4e6157;
-  --hover: #e6ece5;
-  --neutral: #dce4dd;
-  --track: #dde5de;
+  --nav-text: #4c584b;
+  --hover: #c7cfc0;
+  --neutral: #c0c7bb;
+  --track: #bfc8b9;
 
   /* Incorrect answers and warnings */
-  --red: #9b4343;
-  --red-bg: #fbefed;
-  --red-line: #dfbdb8;
-  --warning-bg: #f9f2df;
-  --warning-ink: #68562e;
-  --warning-line: #ddcfa7;
+  --red: #8a4442;
+  --red-bg: #e8d7ce;
+  --red-line: #c6a9a0;
+  --warning-bg: #e5d9b9;
+  --warning-ink: #62552f;
+  --warning-line: #c5b48c;
 
   /* Code examples */
-  --inline-code: #e7ede7;
-  --code-bg: #edf2ee;
-  --code-ink: #2b4338;
-  --code-control-bg: #e0e9e1;
-  --code-control-ink: #3d594b;
-  --code-control-border: #bccdbe;
-  --shadow: #273b3214;
-  --overlay: #263c3265;
+  --inline-code: #d3d8ca;
+  --code-bg: #d3d8cb;
+  --code-ink: #354a3a;
+  --code-control-bg: #c2cdbb;
+  --code-control-ink: #3d5540;
+  --code-control-border: #9ead97;
+  --shadow: #383c3212;
+  --overlay: #343e3365;
 
   --radius: 9px;
   --sidebar: 262px;
