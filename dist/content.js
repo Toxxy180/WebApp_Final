@@ -17,4 +17,6 @@ window.addChapter = function(c) {
  c.quiz=c.quiz.map((q,i)=>normalizeQuestion(q,c.id,i));
  Course.chapters.push(c);
 };
-window.S = (title,body) => ({title,body});
+// Code examples may contain literal HTML strings (e.g. '<li>'). Preserve their
+// angle brackets as source text instead of letting the browser create nodes.
+window.S = (title,body) => ({title,body:body.replace(/(<pre><code>)([\s\S]*?)(<\/code><\/pre>)/g,(_,start,code,end)=>start+code.replace(/</g,'&lt;').replace(/>/g,'&gt;')+end)});
